@@ -1,0 +1,13 @@
+// My_Callgraph.mpc
+project (My_Callgraph) : oasis_pintool {
+  sharedname = My_Callgraph
+
+  includes += $(PINPP_ROOT)
+
+  Source_Files {
+    My_Callgraph.cpp
+	Call_Graph.cpp
+	Edge.cpp
+	Node.cpp
+  }
+}
